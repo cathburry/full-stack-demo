@@ -31,6 +31,7 @@ const CategorySchema = new Schema({
 ## How to run locally
 * Ensure that node, npm and MongoD Server are installed on your local machine.
 * Clone this repo
-* cd into the directory and run ***npm install && npm run start***.
+* cd into the ***client*** directory and run ***npm install***.
+* after installing, run ***cd .. && npm install && npm run start***
 
 # MedCheck Expense Manager Application
