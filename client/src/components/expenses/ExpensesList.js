@@ -136,6 +136,7 @@ const ExpensesList = (props) => {
                 show={isOpen}
                 size="lg"
                 modalHeading="Add New Expense"
+                modalHeading={`${mode === 'add' ? 'Add New' : 'Edit'} Expense`}
               >
                 <ExpenseForm
                   row={currData}

@@ -130,7 +130,7 @@ const CategoriesList = (props) => {
                 handleClose={toggleModal}
                 show={isOpen}
                 size="lg"
-                modalHeading="Add New Category"
+                modalHeading={`${mode === 'add' ? 'Add New' : 'Edit'} Category`}
               >
                 <CategoriesForm
                   mode={mode}

@@ -69,11 +69,6 @@ const CategoriesForm = (props) => {
             render={({ errors, touched }) => (
               <Form>
                 <div className="row">
-                  <div className="col-lg-12 col-md-12">
-                  <h2>{ props.mode === 'edit' ? 'Edit Entry' : 'New Entry' }</h2>
-                  </div>
-                </div> 
-                <div className="row">
                   <div className={`form-group col-md-12 ${errors.title && touched.title && 'has-error'}`}>
                     <label htmlFor="title">Title</label>
                     <Field
