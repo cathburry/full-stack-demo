@@ -1,0 +1,11 @@
+$color-red: #ff0000;
+
+.form {
+  .help-block {
+    color: $color-red;
+  }
+
+  .react-datepicker-wrapper {
+    width: 100% !important;
+  }
+}

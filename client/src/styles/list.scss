@@ -1,0 +1,41 @@
+$border-color: #e5e5e5;
+$thead-color: #35a2b81f;
+
+.list {
+  .header {
+    margin: 15px 0 5px 0;
+
+    h4 {
+      padding-top: 10px;
+    }
+
+    .add-button {
+      text-align: right;
+    }
+  }
+
+  table {
+    border: 1px solid $border-color;
+    border-radius: 25px;
+    
+    thead {
+      border-bottom: 1px solid $border-color;
+      background: $thead-color;
+    }
+
+    th, td {
+      padding: 10px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .responsiveTable {
+      tbody {
+        tr {
+          border: 1px solid $border-color;
+          padding: .25em;
+        }
+      }
+    }
+  }
+}
